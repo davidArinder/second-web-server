@@ -29,7 +29,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about', {
-    title: 'This page would have information about me.',
+    title: 'This page would have some information about me.',
     name: 'David Arinder'
   })
 })
@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Help Page',
-    helpText: 'This page would have helpful information.',
+    helpText: 'This page would have some helpful information.',
     name: 'David Arinder'
   })
 })
